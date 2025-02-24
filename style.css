@@ -1,0 +1,57 @@
+
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.animated-image {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    animation: bounce 2s infinite;
+    margin-top: 20px;
+  }
+  
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+  }
+  
+  
+  .animated-image.start-animation {
+    animation: bounce 2s infinite;
+  }
+  
+
+.btn-submit {
+    background-color: #c2a476 !important;
+    border: none;
+    font-weight: bold !important;
+    color: white  ;
+}
+
+
+.btn-submit:hover {
+    background-color: #a78b61 !important;
+}
+
+.text-dark {
+--bs-text-opacity: 1;
+color: rgb(136, 100, 44) !important;
+}
